@@ -46,7 +46,7 @@ a {
 .main {
   padding: 30vh 0px;
   background-blend-mode: multiply;
-  background: url("/img/background.jpg") no-repeat;
+  background: url("../img/background.jpg") no-repeat;
   background-color: rgba(0, 0, 0, 0.747);
   background-size: cover;
   color: white;
