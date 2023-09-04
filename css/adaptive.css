@@ -8,6 +8,9 @@
     font-size: 30px;
     width: 100%;
   }
+  .services {
+    padding: 0px;
+  }
   .services .services__header {
     font-size: 30px;
   }
