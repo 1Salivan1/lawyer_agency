@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/icon.png" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/adaptive.css" />
@@ -20,7 +21,7 @@
     <script>
       new WOW().init();
     </script>
-    <title>Document</title>
+    <title>Lawyer Agency</title>
   </head>
   <body>
     <header class="header">
@@ -170,6 +171,13 @@
       </div>
     </footer>
   </body>
-  <script src="/js/swiper.js"></script>
-  <script src="/JS/animation.js"></script>
+  <script>
+    const swiper = new Swiper(".swiper", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+  <script src="/js/wow.min.js"></script>
 </html>
